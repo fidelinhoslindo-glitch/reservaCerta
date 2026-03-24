@@ -42,7 +42,7 @@ form.addEventListener("submit", async (event) => {
 
     form.reset();
     countNode.textContent = String(result.count || 0);
-    noteNode.innerHTML = `Lead salvo com sucesso. Total atual: <strong>${result.count}</strong>`;
+    noteNode.innerHTML = `Cadastro enviado com sucesso. Pessoas na lista: <strong>${result.count}</strong>`;
   } catch (error) {
     noteNode.textContent =
       error instanceof Error ? error.message : "Nao foi possivel enviar agora.";

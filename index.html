@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="ReservaCerta: cobre sinal, confirme horarios e pare de perder dinheiro com no-show no WhatsApp."
+      content="ReservaCerta: cobre sinal, confirme horarios e reduza faltas no WhatsApp."
     />
-    <title>ReservaCerta | SaaS para reduzir no-show no WhatsApp</title>
+    <title>ReservaCerta | Agenda com sinal e menos faltas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,77 +19,82 @@
   <body>
     <header class="site-header">
       <div class="brand">ReservaCerta</div>
-      <a class="header-cta" href="#lista">Entrar na lista</a>
+      <nav class="header-nav" aria-label="Navegacao principal">
+        <a href="#para-quem">Para quem</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a class="header-cta" href="#lista">Entrar na lista</a>
+      </nav>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">SaaS validado para anuncio e assinatura</p>
-            <h1>Pare de perder dinheiro com no-show no WhatsApp.</h1>
+            <p class="eyebrow">ReservaCerta</p>
+            <h1>Reserve com sinal. Confirme no WhatsApp. Reduza faltas.</h1>
             <p class="hero-text">
-              O ReservaCerta foi pensado do zero para manicures, lash designers,
-              designers de sobrancelha e esteticistas que querem cobrar sinal,
-              confirmar horarios e lotar a agenda com menos caos.
+              Um sistema simples para profissionais de beleza que querem proteger a
+              agenda, cobrar sinal antes do atendimento e deixar cada horario mais
+              claro para a cliente.
             </p>
 
             <div class="hero-actions">
-              <a class="button button-primary" href="#lista">Quero testar primeiro</a>
-              <a class="button button-secondary" href="#mvp">Ver o MVP</a>
+              <a class="button button-primary" href="#lista">Quero prioridade</a>
+              <a class="button button-secondary" href="#como-funciona">
+                Ver como funciona
+              </a>
             </div>
 
-            <div class="hero-metrics">
-              <div>
-                <strong>1M+</strong>
-                <span>profissionais no mercado</span>
-              </div>
-              <div>
-                <strong>R$ 29</strong>
-                <span>assinatura inicial sugerida</span>
-              </div>
-              <div>
-                <strong>WhatsApp</strong>
-                <span>canal principal do publico</span>
-              </div>
+            <div class="hero-points" aria-label="Beneficios principais">
+              <span>Cobranca de sinal</span>
+              <span>Politica de cancelamento</span>
+              <span>Lembrete automatico</span>
             </div>
           </div>
 
-          <div class="hero-panel">
-            <div class="panel-shell">
-              <div class="panel-top">
-                <span>Reserva confirmada</span>
-                <span>Sinal pago</span>
+          <div class="hero-stage" aria-hidden="true">
+            <div class="hero-ring hero-ring-large"></div>
+            <div class="hero-ring hero-ring-small"></div>
+
+            <div class="schedule-poster">
+              <div class="poster-top">
+                <span>agenda protegida</span>
+                <span>cliente confirmada</span>
               </div>
 
-              <div class="panel-main">
+              <div class="poster-body">
                 <div>
-                  <p class="panel-label">Servico</p>
+                  <p class="poster-label">Atendimento</p>
                   <h2>Design de sobrancelha + finalizacao</h2>
                 </div>
 
-                <div class="panel-grid">
+                <div class="poster-grid">
                   <div>
-                    <p class="panel-label">Valor</p>
+                    <p class="poster-label">Valor</p>
                     <strong>R$ 90,00</strong>
                   </div>
                   <div>
-                    <p class="panel-label">Sinal</p>
+                    <p class="poster-label">Sinal</p>
                     <strong>R$ 30,00</strong>
                   </div>
                   <div>
-                    <p class="panel-label">Data</p>
+                    <p class="poster-label">Data</p>
                     <strong>09 abr, 14:00</strong>
                   </div>
                   <div>
-                    <p class="panel-label">Canal</p>
+                    <p class="poster-label">Canal</p>
                     <strong>WhatsApp</strong>
                   </div>
                 </div>
 
-                <div class="panel-note">
-                  Cancelamentos com menos de 24h nao devolvem o sinal. A cliente
-                  recebe confirmacao e lembrete automatico.
+                <div class="poster-rule">
+                  Cancelamentos com menos de 24h nao devolvem o sinal.
+                </div>
+
+                <div class="poster-status">
+                  <span class="status-pill">Link enviado</span>
+                  <span class="status-pill status-pill-active">Sinal pago</span>
+                  <span class="status-pill">Lembrete programado</span>
                 </div>
               </div>
             </div>
@@ -97,84 +102,93 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="para-quem">
         <div class="section-head">
-          <p class="section-kicker">Dor unica</p>
-          <h2>Nao e um sistema gigante. E um SaaS para resolver uma dor clara.</h2>
+          <p class="section-kicker">Feito para quem vive de agenda</p>
+          <h2>Se voce atende pelo WhatsApp, o ReservaCerta entra no seu fluxo sem complicar.</h2>
         </div>
 
-        <div class="pain-grid">
-          <article>
+        <div class="audience-grid">
+          <article class="audience-item">
             <span>01</span>
-            <h3>Horario reservado no escuro</h3>
-            <p>Cliente marca, some e deixa um buraco na agenda.</p>
+            <h3>Manicure</h3>
+            <p>Organize horarios e confirme atendimentos com menos troca de mensagem.</p>
           </article>
-          <article>
+          <article class="audience-item">
             <span>02</span>
-            <h3>Print nao e processo</h3>
-            <p>Comprovante, confirmacao e politica ficam perdidos na conversa.</p>
+            <h3>Lash designer</h3>
+            <p>Proteja atendimentos mais longos com sinal e regra clara antes do horario.</p>
           </article>
-          <article>
+          <article class="audience-item">
             <span>03</span>
-            <h3>Receita sem previsibilidade</h3>
-            <p>Sem sinal e sem regra, cada cancelamento pesa no caixa.</p>
+            <h3>Sobrancelha e estetica</h3>
+            <p>Deixe cada reserva mais profissional sem depender de prints perdidos.</p>
           </article>
         </div>
       </section>
 
-      <section class="section split" id="mvp">
-        <div class="section-copy">
-          <p class="section-kicker">MVP certo</p>
-          <h2>Comece pelo minimo que valida a dor e a assinatura.</h2>
-          <ul class="clean-list">
-            <li>pagina de agendamento simples</li>
-            <li>cobranca de sinal</li>
-            <li>politica de cancelamento</li>
-            <li>confirmacao automatica</li>
-            <li>lembrete de horario</li>
-          </ul>
+      <section class="section section-flow" id="como-funciona">
+        <div class="section-head">
+          <p class="section-kicker">Como funciona</p>
+          <h2>Um fluxo direto para cobrar melhor e perder menos horario.</h2>
         </div>
 
-        <div class="feature-card">
-          <p class="section-kicker">O que nao entra agora</p>
-          <ul class="plain-list">
-            <li>estoque</li>
-            <li>financeiro completo</li>
-            <li>aplicativo nativo</li>
-            <li>gestao pesada de equipe</li>
-            <li>ERP de salao</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section section-tight">
-        <div class="proof-strip">
-          <div>
-            <p class="section-kicker">Mercado</p>
-            <strong>1.029.850</strong>
-            <span>profissionais em cabeleireiro, manicure e pedicure</span>
-          </div>
-          <div>
-            <p class="section-kicker">Distribuicao</p>
-            <strong>80%+</strong>
-            <span>dos negocios de servico usam WhatsApp como canal principal</span>
-          </div>
-          <div>
-            <p class="section-kicker">Modelo</p>
-            <strong>Assinatura</strong>
-            <span>recorrencia mensal e previsibilidade de caixa</span>
-          </div>
+        <div class="flow-grid">
+          <article class="flow-step">
+            <span>1</span>
+            <h3>Voce envia o link</h3>
+            <p>A cliente recebe uma pagina clara com servico, valor, data e politica.</p>
+          </article>
+          <article class="flow-step">
+            <span>2</span>
+            <h3>A cliente confirma com sinal</h3>
+            <p>O horario deixa de ficar solto na conversa e ganha um compromisso real.</p>
+          </article>
+          <article class="flow-step">
+            <span>3</span>
+            <h3>O sistema lembra o atendimento</h3>
+            <p>Voce reduz faltas e entra no dia com mais previsibilidade de agenda.</p>
+          </article>
         </div>
       </section>
 
-      <section class="section" id="lista">
+      <section class="section section-benefits">
+        <div class="benefit-layout">
+          <div class="benefit-copy">
+            <p class="section-kicker">O que muda no dia a dia</p>
+            <h2>Menos buraco na agenda. Mais clareza no caixa.</h2>
+            <p>
+              O ReservaCerta nao quer virar mais uma tela para voce administrar.
+              Ele existe para deixar a reserva organizada, com menos desencontro,
+              menos faltas e mais seguranca para cobrar.
+            </p>
+          </div>
+
+          <div class="benefit-list">
+            <div class="benefit-line">
+              <strong>Sinal antes do horario</strong>
+              <span>para reduzir cancelamentos em cima da hora</span>
+            </div>
+            <div class="benefit-line">
+              <strong>Politica clara</strong>
+              <span>para evitar mal entendido no atendimento</span>
+            </div>
+            <div class="benefit-line">
+              <strong>Confirmacao automatica</strong>
+              <span>para deixar a agenda mais previsivel</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cta" id="lista">
         <div class="waitlist-wrap">
           <div class="waitlist-copy">
-            <p class="section-kicker">Lista piloto</p>
-            <h2>Se essa dor e sua, entre na lista de teste do ReservaCerta.</h2>
+            <p class="section-kicker">Primeiras vagas</p>
+            <h2>Entre na lista e receba prioridade quando o ReservaCerta abrir.</h2>
             <p>
-              Esta pagina e a primeira validacao. Antes de construir o SaaS inteiro,
-              a meta e medir interesse real com anuncios e captação.
+              Se voce quer cobrar sinal e organizar melhor seus horarios no WhatsApp,
+              deixe seu contato e a sua area de atuacao.
             </p>
           </div>
 
@@ -185,12 +199,7 @@
             </label>
             <label>
               <span>Sua area</span>
-              <input
-                name="niche"
-                type="text"
-                placeholder="Lash designer"
-                required
-              />
+              <input name="niche" type="text" placeholder="Lash designer" required />
             </label>
             <label>
               <span>WhatsApp</span>
@@ -202,10 +211,10 @@
               />
             </label>
             <button class="button button-primary button-full" type="submit">
-              Entrar na lista piloto
+              Quero prioridade no lancamento
             </button>
             <p class="form-note" id="form-note">
-              Leads salvos localmente neste MVP: <strong id="lead-count">0</strong>
+              Pessoas na lista neste ambiente: <strong id="lead-count">0</strong>
             </p>
           </form>
         </div>
@@ -214,7 +223,7 @@
 
     <footer class="site-footer">
       <p>ReservaCerta</p>
-      <p>SaaS vertical para profissionais de beleza que agendam pelo WhatsApp.</p>
+      <p>Agenda com sinal para profissionais de beleza que atendem pelo WhatsApp.</p>
     </footer>
 
     <script src="./script.js"></script>
