@@ -1,0 +1,13 @@
+{
+  "name": "reservacerta-validation",
+  "version": "1.0.0",
+  "description": "Landing + API simples para validar demanda do ReservaCerta",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
